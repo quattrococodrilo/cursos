@@ -17,7 +17,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 *Filtro:
 <code>
 $ docker inspect -f '{{json .Config.Env}}' id/nombre_contenedor
-  <br/>
+  
 $ ["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"]
 </code>
 
